@@ -1,0 +1,48 @@
+.test {
+    max-width: 400px;
+    margin: 20px auto 0 auto;
+    border-color: red;
+}
+.test .list-group-item{
+    border-color:    rgb(195, 229, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.test .list-group-item:not(.active):nth-child(odd){
+    background-color: rgb(223, 237, 242);
+}
+
+.list-group-item:not(.active):hover{
+    background-color: rgb(125, 175, 193)!important;
+    color:white;
+    animation: fadeIn 1s;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem!important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.active{
+    animation: fadeIn 1s;
+    background-color: rgb(41, 165, 210)!important;
+    border-color: rgb(41, 165, 210)!important;
+    color:white;
+}
+
+
+
+

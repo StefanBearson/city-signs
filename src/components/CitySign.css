@@ -1,0 +1,14 @@
+.city-sign {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #285b99;
+    color: #ccc;
+    font-size: 40px;
+    width: 400px;
+}
